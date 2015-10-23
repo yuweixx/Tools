@@ -71,7 +71,7 @@ public class BatteryChart extends ChartPanel implements Runnable
         }         
     }  
       
-    private double randomNum() throws IOException  
+    public static double randomNum() throws IOException  
     {     
     	
         System.out.println(Getbattery.battery());        
