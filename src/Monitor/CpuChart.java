@@ -83,7 +83,7 @@ public class CpuChart extends ChartPanel implements Runnable
   {
 	  if (Menu.log=="1")
 	  {
-			 Outlog.log.writelogs("D:/log/Monitor_log",time,"时间: "+time1+"  Cpu："+GetTop.cpu(Menu.text)+"%"+"               Memory: "+HeapChart.randomNum()/1024+"MB"+"                流量："+FlowChart.randomNum()+"Kb");
+			 Outlog.log.writelogs("D:/log/Monitor_log",time,"时间: "+time1+"  Cpu："+GetTop.cpu(Menu.text)+"%"+"               Memory: "+HeapChart.randomNum()/1024+"MB"+"                流量："+FlowChart.randomNum()+"Kb"+"              Battery"+BatteryChart.randomNum());
 	  }
 	  }
     
